@@ -1,3 +1,12 @@
+""" 
+Prebuilt script from boot.dev
+This creates and updates a game_state.jsonl to log the game state
+It logs:
+- Timestamp
+- Elapsed seconds and the frame count that corresponds with that time
+- Frame size width and height
+"""
+
 import inspect
 import json
 import math
